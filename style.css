@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tahoma', sans-serif;
+  }
+
+
+body {
+    font-family: Tahoma;
+    margin: 0 auto;
+    padding: 20px auto;
+    text-align: center;
+    background-color: #f4f4f4; /* Adicionei uma cor de fundo para melhor visualização */
+    align-items: center;
+    width: 80%;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header img {
+    max-width: 300px;
+    border-radius: 5px; /* Adicionei cantos arredondados à imagem */
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1); /* Adicionei uma sombra sutil para destaque */
+}
+
+.section {
+    border: 1px solid #d5d5d5;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff; /* Adicionei cor de fundo para cada seção */
+    border-radius: 5px; /* Adicionei cantos arredondados para as seções */
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1); /* Adicionei uma sombra sutil para destaque */
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+a {
+    display: inline-block;
+    padding: 0px 0px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+img {
+    max-width: 190px;
+    height: auto;
+    margin-bottom: 10px;
+    display: block; /* centraliza imagens */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+p{
+    width: 900px;
+    margin: 15px auto 30px ;
+    line-height: 36px;
+}
+
+span {
+    font-weight: bold;
+}
