@@ -13,6 +13,10 @@ body {
     background-color: #f4f4f4; /* Adicionei uma cor de fundo para melhor visualização */
     align-items: center;
     width: 80%;
+    background-image: url('img/fundo.png');
+    /*background-repeat: no-repeat;*/
+    background-size: contain;
+    /*background-attachment: fixed;*/
 }
 
 header {
@@ -32,6 +36,7 @@ header img {
     background-color: #fff; /* Adicionei cor de fundo para cada seção */
     border-radius: 5px; /* Adicionei cantos arredondados para as seções */
     box-shadow: 0px 2px 5px rgba(0,0,0,0.1); /* Adicionei uma sombra sutil para destaque */
+    
 }
 
 button {
@@ -59,7 +64,7 @@ a {
 }
 
 img {
-    max-width: 190px;
+    width: 390px;
     height: auto;
     margin-bottom: 10px;
     display: block; /* centraliza imagens */
